@@ -17,11 +17,11 @@ We made a website for this as our final project in the course "Introduction to C
 # Preview
 Here is the preview of our created website.
 
-# Homepage
+### Homepage
 
 ![Screenshot 2025-03-15 134717](https://github.com/user-attachments/assets/2e0eb738-0213-49c8-8927-940c37e2fbe0)
 
-# Feature Page
+### Feature Page
 
 ![Screenshot 2025-03-15 134906](https://github.com/user-attachments/assets/9dd23786-f4c3-4f97-a815-331b49fb9532)
 
@@ -35,7 +35,7 @@ Here is the preview of our created website.
 
 ![Screenshot 2025-03-15 135041](https://github.com/user-attachments/assets/58cc1386-0a30-4a01-a211-f12b23460660)
 
-# About Page
+### About Page
 
 ![Screenshot 2025-03-15 135402](https://github.com/user-attachments/assets/a8303f09-c632-4c7c-b533-a65ebfaedb46)
 
@@ -45,7 +45,7 @@ Here is the preview of our created website.
 
 ![Screenshot 2025-03-15 135730](https://github.com/user-attachments/assets/87a246d0-b721-4ddd-8eab-da89dba182ed)
 
-# Team Page
+### Team Page
 
 ![Screenshot 2025-03-15 135434](https://github.com/user-attachments/assets/f0a85a01-95d4-4fbd-83a2-b925fe5e3f34)
 
