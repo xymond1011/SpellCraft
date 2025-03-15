@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="./resources/img/favicon/favicon.ico">
+    <link rel="stylesheet" href="./css/webstyle.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/media-query.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./resources/img/logo.png">
+          </a>
+          <button id="navbar-toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Explore
+                </a>
+                <ul class="dropdown-menu" id="dropdown-menu">
+                  <li><a class="dropdown-item" href="#about-title">About</a></li>
+                  <li><a class="dropdown-item" href="#contact">Contact</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team-title">Team</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <section id="home">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <img src="./resources/img/logo.png" alt="logo" id="logo" class="mt-4">
+                    <h5 class="display-6 fw-light mt-0 text-warning">&nbsp;Learn and Play!</h5>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 text-center my-5">
+                <a href="#about">
+                    <button class="play-btn">
+                        <img src="./resources/img/play-button.png" alt="play button" class="play-btn-img">
+                    </button>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="features">
+            <div class="row">
+                <a href="#strings" data-bs-toggle="collapse" class=" btn text-center p-4 p-lg-5 more-text" id="string-btn">Strings</a>
+                <div class="collapse" id="strings"> 
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="text-center mb-0" id="feature-head">Communicate</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6 justify-content-center align-items-center">
+                                    <p class="fs-lg-4  text-justify" id="feat-scroll-text">Learn the most basic output command! This part lets players play with Strings 
+                                        and introduces them how the output command works. Strings can be used to print
+                                        out dialogue between characters!
+                                    </p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="container text-center">
+                                        <img src="./resources/img/hello world.png" alt="screen shot of hello word here" class="feat-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <a href="#variables" data-bs-toggle="collapse" class="text-center p-4 p-lg-5 more-text" id="var-btn">
+                    Variables
+                </a>
+                <div class="collapse" id="variables">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="text-center mb-0">Assign</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6 justify-content-center align-items-center">
+                                    <p class="fs-lg-4 text-justify">
+                                        This part teaches how to assign values to variables. It will start with the String
+                                        data type. As players progress, they will soon be able to play with
+                                        other data types and do all sorts of commands with them!                          
+                                    </p>
+                                </div>
+                                <div class="col-lg-6 text-center">
+                                    <img src="./resources/img/variables.png" alt="variables" class="feat-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <a href="#loops" data-bs-toggle="collapse" class="text-center p-4 p-lg-5 more-text" id="loop-btn">
+                    Loops
+                </a>
+                <div class="collapse" id="loops">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="text-center mb-0">Iterate Attacks</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6 justify-content-center align-items-center">
+                                    <p class="fs-lg-4 text-justify">
+                                        The game starts to get interesting as players encounter more commands.
+                                        A loop is a Java component that iterates a command a certain amount of times.
+                                        A basic application that players can do is to iterate their spells a certain nnumber of times. 
+                                    </p>
+                                </div>
+                                <div class="col-lg-6 text-center">
+                                    <img src="./resources/img/for-loop.png" alt="for-loop" class="feat-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <a href="#arrays" data-bs-toggle="collapse" class="text-center p-4 p-lg-5 more-text" id="array-btn">
+                    Arrays
+                </a>
+                <div class="collapse" id="arrays">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="text-center mb-0">Create Your Own Special Combo</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6 justify-content-center align-items-center">
+                                    <p class="fs-lg-4 text-justify">
+                                        Each players' gameplay will start showing diversity once this feature
+                                        is unlocked. Arrays are a collection of items. In the game, they can be used
+                                        to store several spells and attacks within an array and be called upon
+                                        anytime to perform a combo attack.
+                                    </p>
+                                </div>
+                                <div class="col-lg-6 text-center">
+                                    <img src="./resources/img/array.png" alt="arrays" class="feat-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <a href="#incoming" data-bs-toggle="collapse" class="text-center p-4 p-lg-5 more-text" id="coming-soon">
+                    Coming Soon
+                </a>
+                <div class="collapse" id="incoming">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="text-center mb-0">
+                                More to Come!
+                            </h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="justify-content-center text-center mb-0">
+                                The developers are constantly coming up with more content as they
+                                improve their skills.<br>Travel the journey with them and learn
+                                together along the way!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <h3 id="about-title" class="text-center my-3 p-1">-- About the Game --</h3>
+    <section id="about" class="mb-3 mt-0">
+        <div class="container-lg my-0 py-0">
+            <div class="row justify-content-center align-items-center py-5">
+                <div class="col-12 col-lg-6 justify-content-center">
+                    <div class="container-sm justify-content-center text-center">
+                        <video src="./resources/vid/Trailer.mp4" autoplay muted loop class="trailer" id="trailvid"></video>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="container-sm">
+                        <div class="accordion my-0" id="features">
+                            <div class="accordion-item" id="intro">
+                                <h2 class="accordion-header">
+                                    <a href="#feature-1" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#feature-1">
+                                        Learn and Play!
+                                    </a>
+                                </h2>
+                                <div id="feature-1" class="accordion-collapse collapse show">
+                                    <div class="accordion-body">
+                                        <p>
+                                            SpellCraft is designed to integrate gaming elements to
+                                            help boost learner engagement. It mainly aims to supplement
+                                            learners' usual lessons and provide a more interactive and 
+                                            engaging environment to practice coding. In the game, coding 
+                                            will be the main weapon of the players to combat against the
+                                            challenges the game has to offer.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item" id="prog">
+                                <h2 class="accordion-header">
+                                    <a href="#feature-2" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#feature-2">
+                                        Progression System
+                                    </a>
+                                </h2>
+                                <div id="feature-2" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Commands and other methods used in programming will be slowly
+                                            introduced starting with the most basic output commands. Each
+                                            command would have a certain function essential for a good gameplay
+                                            to ensure that players will put what they have laerned into practice
+                                            if they want to play 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item" id="ph1">
+                                <h2 class="accordion-header">
+                                    <a href="#feature-3" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#feature-3">
+                                        Combat System
+                                    </a>
+                                </h2>
+                                <div id="feature-3" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        <p>
+                                            SpellCraft has its own unique combat system. In the early
+                                            stages, players will have limited options as they will start
+                                            witht the basics and with few resources to work with. This
+                                            is to let them familiarize themselves with the environment. In
+                                            later stages, the combat system's uniqueness will start to show.
+                                            By combining different methods and commands, players will be able
+                                            design their own spells, thus the name SpellCraft! 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item" id="ph2">
+                                <h2 class="accordion-header">
+                                    <a href="#feature-4" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#feature-4">
+                                        Code to Survive!
+                                    </a>
+                                </h2>
+                                <div id="feature-4" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Coding is an essential skill to play the game! It's fine to start
+                                            with zero knowledge as the game can help you build up a foundation.
+                                            However, improvement is a must to progress further as coding is the 
+                                            very core of the game!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h3 id="team-title" class="text-center my-0 p-0">-- Our Team --</h3>
+    <section id="team">
+        <div id="profile" class="row mt-3 pb-4 justify-content-center">
+            <div class="col-sm-4 col-lg-2 text-center"><img src="./resources/img/profile/team-xymond.png" alt="profile.png"></div>
+            <div class="col-sm-4 col-lg-2 text-center"><img src="./resources/img/profile/team-renz.png" alt="profile.png"></div>
+            <div class="col-sm-4 col-lg-2 text-center"><img src="./resources/img/profile/team-dri.png" alt="profile.png"></div>
+            <div class="col-sm-4 col-lg-2 text-center"><img src="./resources/img/profile/team-caleb.png" alt="profile.png"></div>
+            <div class="col-sm-4 col-lg-2 text-center"><img src="./resources/img/profile/team-shasta.png" alt="profile.png"></div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container-sm py-3">
+            <h4 class="text-center pb-0 mb-0">--Contact Us--</h4><br>
+            <ul id="contact-icons" class="text-center p-0">
+                <a href="https://www.facebook.com/profile.php?id=100008113094776" target="_blank"><i class="fa-brands fa-facebook">&nbsp;</i></a>
+                <a href="https://www.twitter.com/zanex1029" target="_blank"><i class="fa-brands fa-twitter">&nbsp;</i></a>
+                <a href="https://www.instagram.com/znx_1029/" target="_blank"><i class="fa-brands fa-instagram" target="_blank">&nbsp;</i></a>
+                <a href="https://discord.gg/nKdGUN68" target="_blank"><i class="fa-brands fa-discord"></i></a>
+            </ul>
+                <i class="fa fa-phone"><span>&nbsp;&nbsp;0912-345-6789</span></i><br>
+                <i class="fa fa-envelope"><span>&nbsp;&nbsp;</span><a href="mailto:spellcraft2023@gmail.com"><span>spellcraft2023@gmail.com</span></a></i>
+        </div>
+    </section>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/6cab7d41aa.js" crossorigin="anonymous"></script>
+</html
