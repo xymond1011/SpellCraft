@@ -1,0 +1,199 @@
+/*custom-fonts*/
+@font-face {
+    font-family: spellcraft;
+    src: url(../resources/font/medieval-pixel.otf);
+}
+@font-face {
+    font-family: genshin-font;
+    src: url(../resources/font/zh-cn.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: genshin-font;
+    cursor: url(../resources/custom-cursor/Normal.cur), auto !important; 
+}
+body{
+    overflow-x: hidden; 
+    background-color: #2c2829 !important;
+    opacity: 0.7 !important;
+}
+#home{
+    background-image: linear-gradient(rgba(1, 9, 5, 0.35), rgba(1, 9, 5, 0.35)), url(../resources/img/webpagebg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    overflow: hidden !important;
+}
+#about{
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../resources/img/webpagebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#team{
+    background-image: linear-gradient(rgba(4, 9, 20, 0.5), rgba(4, 9, 20, 0.5)), url(../resources/img/webpagebg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#about-title{
+    color: #ddd;
+}
+#team-title{
+    color: #ddd;
+}
+#contact{
+    background-color: white;
+}
+/*nav-bar design*/
+#navbar {
+    width: 100%;
+    position: fixed;
+    opacity: 0.9;
+    background-color: #2c2829 !important;
+    text-transform: uppercase;
+    z-index: 20;
+    box-shadow: 0px 2px 2px black;
+}
+#navbar-toggler {
+    background-color: #c19713;
+}
+.navbar a {
+    color: #c19713;
+    font-family: spellcraft;
+    font-size: large;
+    font-weight: bold;
+    cursor: url(../resources/custom-cursor/Normal.cur), auto !important;
+}
+.navbar a:hover {
+    color: #e0d06f;
+}
+.navbar-brand img {
+    width: 200px;
+}
+#dropdown-menu {
+    background-color: #2c2829;
+    box-shadow: 0px 2px 2px black;
+    border: none;
+}
+#dropdown-menu a:hover {
+    background-color: #c19713;
+    border-radius: 10px;
+    color: #2c2829;
+}
+h4, h5{
+    font-family: spellcraft !important;
+}
+h5 {
+    text-shadow: 4px 2px #2c2829;
+}
+.card-header{
+    background-color: white !important;
+    border: none !important;
+}
+p {
+    text-align: justify !important;
+}
+.play-btn{
+    background-image: url(../resources/img/play-button2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-radius: 100%;
+    border: none;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    -webkit-animation: breathing 1s ease-out infinite normal;
+    animation: breathing 1s ease-out infinite normal;
+}
+.play-btn-img{
+    width: 100% !important;
+    height: 100% !important;
+}
+.play-btn-img:active {
+    opacity: 0;
+    transition: all 0.01s;
+}
+.board{
+    width: 300px !important;
+    height: 200px !important;
+}
+.accordion-button{
+    font-family: spellcraft;
+    font-size: 20px !important;
+    text-decoration: none !important;
+    background: #c19713 !important;
+    color: black !important;
+}
+.accordion-button:hover {
+    color: #e0d06f !important;
+}
+
+.more-text{
+    text-decoration: none !important;
+    color: white !important;
+}
+.trailer{
+    width: 224px !important;
+    height: 224px !important;
+}
+.accordion-body {
+    background-color: #2c2829;
+    color: white !important;
+}
+
+#string-btn,#var-btn, #loop-btn, #array-btn {
+    background-color: #2c2829 !important;
+    font-family: genshin-font;
+}
+#string-btn:hover,#var-btn:hover, #loop-btn:hover, #array-btn:hover {
+    background-color: #c19713 !important;
+}
+#coming-soon {
+    background-color: #c19713;
+    font-family: genshin-font;
+    color: #2c2829 !important;
+}
+#coming-soon:hover {
+    background-color: #e0d06f;
+}
+#trailvid {
+    border-radius: 5%;
+    box-shadow: 0px 0px 4px 4px black;
+}
+i {
+    text-align: center !important;
+    font-size: 25px;
+}
+i a{
+    color: #2c2829 !important;
+}
+i a:hover{
+    color: #c19713 !important;
+    transition: 0.3s;
+}
+i span{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: spellcraft;
+}
+#contact-icons a {
+    color: #2c2829 !important;
+}
+#contact-icons a:hover {
+    color: #c19713 !important;
+    transition: all 0.5s;
+}
+.feat-img {
+    box-shadow: 5px 4px black;
+    border-radius: 5%;
+}
+#profile img{
+    width: 100%;
+}
+
+
+
+
+
